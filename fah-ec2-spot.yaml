@@ -479,11 +479,11 @@ Resources:
             !Sub |
                 #!/bin/bash -xe
                 sudo yum -y update
-                wget https://download.foldingathome.org/releases/public/release/fahclient/centos-6.7-64bit/v7.6/fahclient-7.6.21-1.x86_64.rpm
+                wget https://download.foldingathome.org/releases/v7/public/fahclient/centos-6.7-64bit/release/fahclient-7.6.21-1.x86_64.rpm
                 sudo rpm -i --nodeps fahclient-7.6.21-1.x86_64.rpm
-                wget https://download.foldingathome.org/releases/public/release/fahcontrol/centos-6.7-64bit/v7.6/fahcontrol-7.6.21-1.noarch.rpm
+                wget https://download.foldingathome.org/releases/v7/public/fahcontrol/centos-6.7-64bit/release/fahcontrol-7.6.21-1.noarch.rpm
                 sudo rpm -i --nodeps fahcontrol-7.6.21-1.noarch.rpm
-                wget https://download.foldingathome.org/releases/public/release/fahviewer/centos-6.7-64bit/v7.6/fahviewer-7.6.21-1.x86_64.rpm
+                wget https://download.foldingathome.org/releases/v7/public/fahviewer/centos-6.7-64bit/release/fahviewer-7.6.21-1.x86_64.rpm
                 sudo rpm -i --nodeps fahviewer-7.6.21-1.x86_64.rpm
 
                 # Cloud Watch Log
